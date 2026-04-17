@@ -1,0 +1,8 @@
+com\inventory\server\ProductValidatorTest.class
+com\inventory\server\ProductDAOTest.class
+com\inventory\server\ProductEntityTest.class
+com\inventory\server\ProductServiceTest.class
+com\inventory\server\ControllerTest.class
+com\inventory\server\InventoryServiceTest.class
+com\inventory\server\ServerApplicationTests.class
+com\inventory\server\InventoryValidatorTest.class

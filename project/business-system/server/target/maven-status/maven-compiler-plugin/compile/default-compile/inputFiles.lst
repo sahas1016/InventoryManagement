@@ -1,0 +1,16 @@
+E:\project\project\business-system\server\src\main\java\com\inventory\controller\EmailController.java
+E:\project\project\business-system\server\src\main\java\com\inventory\controller\Controller.java
+E:\project\project\business-system\server\src\main\java\com\inventory\database_system\entity\Supplier.java
+E:\project\project\business-system\server\src\main\java\com\inventory\database_system\entity\Category.java
+E:\project\project\business-system\server\src\main\java\com\inventory\service\ProductService.java
+E:\project\project\business-system\server\src\main\java\com\inventory\database_system\entity\Transaction.java
+E:\project\project\business-system\server\src\main\java\com\database\DatabaseConnection.java
+E:\project\project\business-system\server\src\main\java\com\inventory\database_system\entity\Product.java
+E:\project\project\business-system\server\src\main\java\com\inventory\server\ServerApplication.java
+E:\project\project\business-system\server\src\main\java\com\inventory\database_system\repository\ProductRepository.java
+E:\project\project\business-system\server\src\main\java\com\inventory\service\validation\InventoryValidator.java
+E:\project\project\business-system\server\src\main\java\com\inventory\service\validation\ProductValidator.java
+E:\project\project\business-system\server\src\main\java\com\inventory\Report\InventoryReportService.java
+E:\project\project\business-system\server\src\main\java\com\inventory\service\InventoryService.java
+E:\project\project\business-system\server\src\main\java\com\inventory\dao\ProductDAO.java
+E:\project\project\business-system\server\src\main\java\com\inventory\Report\EmailService.java
