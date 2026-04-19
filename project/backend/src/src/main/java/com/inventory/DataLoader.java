@@ -158,6 +158,60 @@ public class DataLoader implements CommandLineRunner {
                 .price(new BigDecimal("175.00")).quantity(3).reorderLevel(20)
                 .category(medical).supplier(medSupplier).build());
 
+        Product smartphone = productRepository.save(Product.builder()
+                .name("Smartphone Samsung Galaxy S23")
+                .sku("ELEC-005").description("8GB RAM, 128GB Storage, Phantom Black")
+                .price(new BigDecimal("74999.00")).quantity(15).reorderLevel(5)
+                .category(electronics).supplier(techSupplier).build());
+
+        Product monitor = productRepository.save(Product.builder()
+                .name("27-inch 4K Monitor")
+                .sku("ELEC-006").description("Ultra HD IPS Panel, 144Hz")
+                .price(new BigDecimal("32000.00")).quantity(10).reorderLevel(2)
+                .category(electronics).supplier(techSupplier).build());
+
+        Product stapler = productRepository.save(Product.builder()
+                .name("Heavy Duty Stapler")
+                .sku("STAT-003").description("Staples up to 50 sheets")
+                .price(new BigDecimal("450.00")).quantity(80).reorderLevel(15)
+                .category(stationery).supplier(officeSupplier).build());
+
+        Product folder = productRepository.save(Product.builder()
+                .name("Expanding File Folder")
+                .sku("STAT-004").description("13 pockets, A4 size, durable plastic")
+                .price(new BigDecimal("299.00")).quantity(150).reorderLevel(30)
+                .category(stationery).supplier(officeSupplier).build());
+
+        Product sofa = productRepository.save(Product.builder()
+                .name("3-Seater Sofa")
+                .sku("FURN-003").description("Grey fabric, comfortable cushioning")
+                .price(new BigDecimal("25000.00")).quantity(5).reorderLevel(1)
+                .category(furniture).supplier(furnSupplier).build());
+
+        Product tshirt = productRepository.save(Product.builder()
+                .name("Cotton T-Shirt (Medium)")
+                .sku("CLOT-001").description("100% Cotton, Navy Blue")
+                .price(new BigDecimal("899.00")).quantity(200).reorderLevel(40)
+                .category(clothing).supplier(officeSupplier).build()); // Reusing office supplier for apparel demo
+
+        Product coffee = productRepository.save(Product.builder()
+                .name("Instant Coffee 200g")
+                .sku("FOOD-001").description("Premium Roasted Coffee")
+                .price(new BigDecimal("450.00")).quantity(60).reorderLevel(10)
+                .category(food).supplier(officeSupplier).build());
+
+        Product drill = productRepository.save(Product.builder()
+                .name("Electric Power Drill")
+                .sku("TOOL-001").description("18V Cordless, with 2 batteries")
+                .price(new BigDecimal("5500.00")).quantity(12).reorderLevel(3)
+                .category(tools).supplier(techSupplier).build());
+
+        Product stethoscope = productRepository.save(Product.builder()
+                .name("Digital Stethoscope")
+                .sku("MED-003").description("High precision electronic stethoscope")
+                .price(new BigDecimal("12000.00")).quantity(7).reorderLevel(2)
+                .category(medical).supplier(medSupplier).build());
+
         // ── Transactions ───────────────────────────────────────────────
         transactionRepository.save(Transaction.builder()
                 .product(laptop).user(admin).supplier(techSupplier)
