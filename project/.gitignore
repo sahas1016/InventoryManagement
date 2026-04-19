@@ -1,0 +1,19 @@
+# Java build files
+target/
+*.class
+*.jar
+*.jar.original
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Node
+node_modules/
+build/
+dist/
+
+# Environment
+.env
+*.log
